@@ -12,6 +12,10 @@ on:
       publish-update-metadata:
         type: boolean
         default: false
+  workflow_dispatch:
+  push:
+    branches:
+      - master
 
 # NOTE: F-Droid builder script 'flutter/build_fdroid.sh' reads environment
 # variables from this workflow!
